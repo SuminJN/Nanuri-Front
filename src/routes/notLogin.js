@@ -1,6 +1,6 @@
 import {Route, Routes, useNavigate} from "react-router-dom";
 import Main from "../pages/Main";
-import LoginIng from "../components/login/LoginIng";
+import LoginIng from "../services/LoginIng";
 
 function NotLogin() {
 

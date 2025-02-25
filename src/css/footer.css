@@ -1,0 +1,16 @@
+.footer {
+  color: #4D4D4D;
+
+}
+
+.nav-footer {
+  .nav-link {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #4D4D4D;
+    padding: 0.2rem 1rem;
+    &:hover {
+      color: #4D4D4D;
+    }
+  }
+}

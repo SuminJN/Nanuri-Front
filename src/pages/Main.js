@@ -1,17 +1,42 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-import LoginBtn from "../components/login/LoginBtn";
-import {Link} from "react-router-dom";
 import NavbarDefault from "../components/NavbarDefault";
+import Footer from "../layouts/Footer";
 
 const Main = () => {
     return (
-        <div>
+        <div className="pt-5">
             <NavbarDefault/>
-
             <div className="py-5 text-center">
                 <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
+                <h2>메인 페이지</h2>
             </div>
+
+            <Footer/>
         </div>
     );
 }

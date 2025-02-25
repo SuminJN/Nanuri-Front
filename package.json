@@ -19,7 +19,9 @@
     "react-scripts": "5.0.1",
     "recoil": "^0.7.7",
     "recoil-persist": "^5.1.0",
+    "sass": "^1.85.1",
     "services": "^0.0.3",
+    "styled-components": "^6.1.15",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Main from "../pages/Main";
-import LoginIng from "../components/login/LoginIng";
+import LoginIng from "../services/LoginIng";
 import {isActive} from "../functions/isActive";
 import MySharing from "../pages/MySharing";
 

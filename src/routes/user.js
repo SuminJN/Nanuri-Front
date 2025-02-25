@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import Main from "../pages/Main";
-import LoginIng from "../components/login/LoginIng";
+import LoginIng from "../services/LoginIng";
 import MySharing from "../pages/MySharing";
 import Chat from "../pages/Chat";
 import Ranking from "../pages/Ranking";
