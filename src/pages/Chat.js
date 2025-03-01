@@ -1,11 +1,8 @@
-import NavbarDefault from "../components/NavbarDefault";
-
-const Chat = () => {
+function Chat() {
     return (
         <div className="pt-5">
-            <NavbarDefault/>
             <div className="py-5 text-center">
-                <h2>채팅 페이지</h2>
+                <h2 style={{height: 550}}>채팅 페이지</h2>
             </div>
         </div>
     );

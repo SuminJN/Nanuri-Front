@@ -1,13 +1,13 @@
 import React from "react";
 
-const Ranking = () => {
+const Profile = () => {
     return (
         <div className="pt-5">
             <div className="py-5 text-center">
-                <h2 style={{height: 550}}>서비스 준비중입니다</h2>
+                <h2 style={{height: 500}}>프로필 페이지</h2>
             </div>
         </div>
     );
 }
 
-export default Ranking;
+export default Profile;

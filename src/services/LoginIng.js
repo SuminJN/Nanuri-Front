@@ -15,6 +15,8 @@ function LoginIng() {
             if (credential) {
                 // getToken 함수를 비동기적으로 호출하고 반환된 토큰을 변수에 저장
                 const token = await getToken(credential);
+
+                localStorage.removeItem("token");
                 localStorage.setItem("token", token);
 
                 const tokenData = jwtDecode(token);
